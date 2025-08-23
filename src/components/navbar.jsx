@@ -7,7 +7,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: "Layanan", path: "/layanan" },
+    { name: "Layanan", path: "/services" },
     { name: "Peta Jangkauan", path: "/coverage" },
     { name: "Tentang Kami", path: "/about-us" },
     { name: "Daftar", path: "/register", isButton: true },
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className="print:hidden sticky top-0 z-50 bg-white shadow ">
-      <div className="container mx-auto px-4 flex justify-between items-center h-20">
+      <div className="container mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img

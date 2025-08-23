@@ -10,6 +10,7 @@ import Partnership from "./routes/partnership";
 import "@fontsource/poppins";
 import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
+import "@leaflet/dist/leaflet.css";
 
 function App() {
   return (

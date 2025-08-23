@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../src/components/navbar";
 import CardSlider from "../src/components/cardSlider";
+import RegisterCTA from "../src/components/RegisterCTA";
 import FAQ from "../src/components/FAQ";
 import Footer from "../src/components/footer";
 
@@ -8,8 +9,8 @@ export default function Home() {
   return (
     <div className="font-poppins text-gray-900 bg-white">
       <Navbar />
-      <div className="h-16" />
 
+      <div className="h-10" />
       {/* HERO */}
       <section className="mx-auto max-w-6xl px-4 md:px-0 py-10 grid md:grid-cols-2 gap-8 items-start">
         <div>
@@ -37,9 +38,9 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#2E2E2E] text-white w-full">
+      <section className="mx-auto mz-w-4x1 bg-[#2E2E2E] text-white">
         <div className="px-4 md:px-20 py-8">
-          <p className="text-sm md:text-base leading-relaxed">
+          <p className="text-sm md:text-base leading-relaxed mb-6">
             PT. Aufa Berkah Media adalah perusahaan penyedia layanan internet yang berdiri sejak 2021 di Jombang.
             Kami menghadirkan solusi koneksi cepat, stabil, dan terjangkau untuk kebutuhan rumah, kantor, dan bisnis.
             Didukung oleh tim profesional, kami berkomitmen memberikan layanan responsif, mudah diakses, dan sesuai
@@ -81,7 +82,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      
+      <RegisterCTA />
       <FAQ />
       <Footer />
     </div>

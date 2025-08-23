@@ -7,6 +7,7 @@ const routes: RouteConfig = [
   { path: "/partnership", file: "partnership.jsx" },
   { path: "/index", file: "_index.jsx" },
   { path: "/coverage", file: "services-coverage.jsx"},
+  { path: "/services", file: "services.jsx" },
 ];
 
 export default routes;
